@@ -10,7 +10,7 @@
 
 ## 팀명·팀원·학부 / Team, members, department
 최윤성 ICT융합학부
-
+한승엽 ICT융합학부
 
 ## 연락 규칙 / Contact rule — 어디로, 몇 시간 내 응답
 
