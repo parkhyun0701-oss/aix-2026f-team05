@@ -2,7 +2,7 @@
 
 **팀 규칙 세우기 / Setting team rules**
 
-- 작성일 / Date: 
+- 작성일 / Date: 2026.09.03
 - 참여자 / Present: 박현, 최윤성, 한승엽, 이제빈
 - 최종 반영 / Feeds into: docs/team-rules.md
 
