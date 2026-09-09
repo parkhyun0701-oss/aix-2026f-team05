@@ -90,7 +90,6 @@
 ```json
 { "ok": true,  "data": ... }
 { "ok": false, "error": "ERROR_CODE" }
-```
 
 에러 코드는 대문자와 밑줄로 씁니다. (예: `MEMO_NOT_FOUND`)
 
