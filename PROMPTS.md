@@ -26,7 +26,8 @@ Principle: record your **reasoning**, not just prompts.
 (이슈 단위로 반복 / repeat per issue)
 
 --
-## 2026-09-11 · 메모 검색 기능 (2주차 활동)(A)
+## 2026-09-11 · 메모 검색 기능 (2주차 활동)
+### A조
 
 **지시**
 text메모 검색 기능 만들어줘. 제목이랑 본문에서 키워드로 찾을 수 있게.
