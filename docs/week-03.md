@@ -2,8 +2,8 @@
 
 **라이선스 조사 / License survey**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 2026-09-16  
+- 참여자 / Present: 박현, 최윤성, 한승엽, 이제빈
 - 최종 반영 / Feeds into: LICENSE + README
 
 ---
