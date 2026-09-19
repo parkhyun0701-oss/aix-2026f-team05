@@ -236,6 +236,8 @@ module.exports = router;
 - 버렸다면 왜 버렸는가
 > 부가적인 이유는 필요가 없다고 판단되었기 때문에
 
+### 아이디어 D
+AI 사용 기록 없음.
 ### AI 사용 기록 없음
 
 **나머지 요약 / Summarise the rest in one line**
