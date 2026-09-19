@@ -223,5 +223,9 @@ module.exports = router;
 - 버렸다면 왜 버렸는가
 > 실제 대다수의 일반 대학생은 complex한 노코드 자동화 툴을 돈 내고 설정해서 쓰기보다 수동으로 하다가 피곤해서 포기하는 경향이 훨씬 강하기 때문
 
+### 아이디어 B
+
+### AI 사용 기록 없음
+
 **나머지 요약 / Summarise the rest in one line**
 EARS 개념 질의, Markdown 표 포맷팅 조정, 문법 검수 및 오타 수정 등 단순 편집 작업을 진행함.
