@@ -12,7 +12,7 @@
 
 ---
 
-## 1. 문제 후보 3개 / Three problem candidates
+## 1. 문제 후보 4개 / Four problem candidates
 
 > 네 칸이 다 채워지지 않으면 아직 문제가 아니라 막연한 아이디어입니다.
 > 사용자는 구체적으로 기입하세요.
