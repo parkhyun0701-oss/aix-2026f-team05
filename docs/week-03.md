@@ -2,7 +2,7 @@
 
 **도메인 문제 발굴 / Domain problem discovery**
 
-- 작성일 / Date: 2026-09-16
+- 작성일 / Date: 2026-09-22
 - 참여자 / Present: 박현, 최윤성, 한승엽, 이제빈
 
 ---
