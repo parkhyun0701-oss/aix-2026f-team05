@@ -2,8 +2,8 @@
 
 **주제 선택과 요구 명세 / Choosing a problem & writing the spec**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 2026-09-23
+- 참여자 / Present: 박현, 최윤성, 한승엽, 이제빈
 
 ---
 
@@ -11,7 +11,7 @@
 
 | 항목 Item | 내용 |
 |---|---|
-| 선택한 주제 Chosen |  |
+| 선택한 주제 Chosen | E |
 | 선택 근거 Why |  |
 
 ## ② 성공 기준 가져오기 / Success criteria from Week 3
