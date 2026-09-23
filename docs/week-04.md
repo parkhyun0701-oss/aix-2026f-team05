@@ -11,7 +11,7 @@
 
 | 항목 Item | 내용 |
 |---|---|
-| 선택한 주제 Chosen | A |
+| 선택한 주제 Chosen | A E |
 | 선택 근거 Why |  |
 
 ## ② 성공 기준 가져오기 / Success criteria from Week 3
