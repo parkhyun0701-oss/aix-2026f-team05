@@ -29,9 +29,10 @@ At least two normal paths + one failure path. If "How to check" is empty, it is 
 | # | 경로 Path | EARS 문장 Sentence | 판정 방법 How to check |
 |---|---|---|---|
 | *예시* | *정상* | *WHEN 학생이 과제 목록을 열면 THE 시스템은 SHALL 과목별 미제출 과제를 마감일 순으로 표시한다* | *미제출 과제 3건을 만든 뒤 목록을 열어 마감일 순으로 나오는지 확인* |
-| AC-1 | 정상 Normal | WHEN  THE  SHALL  |  |
+| AC-1 | 정상 Normal | WHEN 사용자가 브라우저 새 탭을 열면 THE 시스템은 SHALL 저장된 모든 북마크를 사용자가 따로 조작하지 않아도 주제 그룹(예: 과제, 공부, 자주 쓰는 사이트)으로 묶어 표시한다  | 폴더 없이 서로 다른 주제의 북마크 30개를 저장한 뒤 새 탭을 열어, 30개가 빠짐없이 표시되고 3개 이상의 그룹으로 나뉘는지 확인 |
 | AC-2 | 정상 Normal | WHEN  THE  SHALL  |  |
-| AC-3 | 실패 Failure | IF  THEN THE  SHALL  |  |
+| AC－３ | 정상 Normal | WHEN  THE  SHALL  |  |
+| AC-４ | 실패 Failure | IF  THEN THE  SHALL  |  |
 
 > 확인할 동작이 더 있으면 AC-4부터 행을 추가해 쓰십시오.
 > If there are more behaviors to check, add rows from AC-4.
