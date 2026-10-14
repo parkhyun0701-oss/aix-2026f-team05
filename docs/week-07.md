@@ -10,6 +10,7 @@
 
 ![architecture](<img width="3600" height="2527" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/770b00c2-df46-402c-b53f-efe62f304df3" />
 )
+<img width="3600" height="2527" alt="image" src="https://github.com/user-attachments/assets/77a93559-e9e9-4393-b692-f7defdc5dbab" />
 
 | 계층 / Layer | 모듈·파일 / Modules | 의존하지 않는 것 / Does not depend on |
 |---|---|---|
