@@ -7,9 +7,7 @@
 ## 1. 아키텍처 다이어그램 / Architecture Diagram
 
 손그림 사진을 올리고 링크하십시오 / Upload a photo and link it.
-
-![architecture](<img width="3600" height="2527" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/770b00c2-df46-402c-b53f-efe62f304df3" />
-)
+<img width="3600" height="2568" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/4513fbcc-c2a6-4980-9cc2-76e1ef2ff1d4" />
 
 
 | 계층 / Layer | 모듈·파일 / Modules | 의존하지 않는 것 / Does not depend on |
