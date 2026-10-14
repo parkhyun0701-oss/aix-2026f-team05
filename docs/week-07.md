@@ -43,11 +43,11 @@
 | [#17](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/17) | view/cards.js (첫 정리 카드 · 고정 제안 카드) | P1 | 최윤성 | 설치 후 첫 새 탭에 첫 정리 카드가 보이고, [정리하기]를 누르기 전에는 크롬 북마크가 바뀌지 않는다 |
 | [#18](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/18) | search.js (웹 검색 · 북마크 검색) | P1 | 최윤성 | 주소면 그 주소로 가고 아니면 기본 검색엔진으로 검색하며, 빈 입력에서는 아무 일도 일어나지 않는다 |
 | [#19](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/19) | dnd.js (끌어서 옮기기 · 순서 바꾸기) | P3 | 최윤성 | 끌어 폴더에 놓거나 순서를 바꾸면 크롬 북마크에 반영되고, 놓을 수 없는 곳에 놓으면 원래 자리로 돌아간다 |
-| [#20](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/20) | 준비: 샘플 북마크 세트 (10개 미만 · 20개 · 30개) | P1 | 한승엽 · C | 세 세트가 tests/에 있고, 새 프로필에 가져오면 위치별 북마크 개수가 문서와 같다 |
+| [#20](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/20) | 준비: 샘플 북마크 세트 (10개 미만 · 20개 · 30개) | P1 | 한승엽 · 이제빈 | 세 세트가 tests/에 있고, 새 프로필에 가져오면 위치별 북마크 개수가 문서와 같다 |
 | [#21](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/21) | 준비: 저장소 설정 마무리 | P1 | 박현 | main에 직접 올리면 거절되고, 승인 없이는 합칠 수 없으며, 팀원 네 명이 모두 첫 연습 PR을 합쳤다 |
-| [#22](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/22) | 확인 목록 P1: 요구사항 62줄 | P1 | 박현 · B · C · D | 62줄이 모두 체크되고, 새 탭 표시 → [정리하기] → [되돌리기] → 잊고 있던 북마크 열기가 한 번에 끝까지 되며, demo-w11 태그를 붙였다 |
-| [#23](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/23) | 확인 목록 P2: 요구사항 49줄 | P2 | 박현 · B · C · D | 49줄이 모두 체크되고, 최종 데모에서 P2 기능을 끊기지 않고 보여 주며, demo-w15 태그를 붙였다 |
-| [#24](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/24) | 확인 목록 P3: 요구사항 6줄 | P3 | 이제빈 · D | 6줄이 모두 체크되고, P1 · P2 확인 목록을 다시 눌러 봐도 깨진 곳이 없다 |
+| [#22](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/22) | 확인 목록 P1: 요구사항 62줄 | P1 | 박현 · 한승엽 · 이제빈 · 최윤성 | 62줄이 모두 체크되고, 새 탭 표시 → [정리하기] → [되돌리기] → 잊고 있던 북마크 열기가 한 번에 끝까지 되며, demo-w11 태그를 붙였다 |
+| [#23](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/23) | 확인 목록 P2: 요구사항 49줄 | P2 | 박현 · 한승엽 · 이제빈 · 최윤성 | 49줄이 모두 체크되고, 최종 데모에서 P2 기능을 끊기지 않고 보여 주며, demo-w15 태그를 붙였다 |
+| [#24](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/24) | 확인 목록 P3: 요구사항 6줄 | P3 | 이제빈 · 최윤성 | 6줄이 모두 체크되고, P1 · P2 확인 목록을 다시 눌러 봐도 깨진 곳이 없다 |
 
 
 ## 3. 마일스톤 / Milestones
