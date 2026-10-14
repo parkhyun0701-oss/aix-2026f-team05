@@ -24,8 +24,6 @@
 
 | # | 제목 / Title | 라벨 / Label | 담당 / Assignee | 완료 조건 / Acceptance Criteria |
 |---|---|---|---|---|
-| # | 제목 / Title | 라벨 / Label | 담당 / Assignee | 완료 조건 / Acceptance Criteria |
-|---|---|---|---|---|
 | [#1](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/1) | manifest.json (권한 · 새 탭 · 서비스 워커 등록) | P1 | 박현 | 설치할 때 topSites 권한 경고가 없고, 새 탭이 확장 프로그램 화면으로 바뀌며, 서비스 워커가 오류 없이 등록된다 |
 | [#2](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/2) | bookmarks.js (크롬 북마크 읽기 · 바꾸기 통로) | P1 | 박현 | 읽은 북마크 개수가 크롬 북마크 관리자와 같고, 같은 이름 폴더를 두 번 만들지 않으며, 폴더를 지워도 안의 북마크는 남는다 |
 | [#3](https://github.com/aix-team-5/aix_BaroLink_bookmark/issues/3) | store.js (저장 항목 9개 통로) | P1 | 박현 | 저장 항목 9개가 기본값과 함께 읽히고, 고정은 8개를 넘지 않으며, 한 키를 새 탭과 서비스 워커가 함께 쓰지 않는다 |
