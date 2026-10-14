@@ -12,9 +12,9 @@
 
 | 계층 / Layer | 모듈·파일 / Modules | 의존하지 않는 것 / Does not depend on |
 |---|---|---|
-| 표현 / Presentation | | |
-| 로직 / Logic | | |
-| 데이터 / Data | | |
+| 표현 / Presentation | newtab.html, newtab.css, js/render.js, js/ui.js, js/search.js, js/dnd.js, view/folders.js, view/forgottenFolder.js, view/cards.js, view/history.js | 크롬 API 직접 호출 안 함 (통로 모듈을 거침), 서버·DB·AI 없음 |
+| 로직 / Logic | js/organize.js (정리 실행), js/classify.js, js/plan.js, js/forgotten.js, js/topic.js (규칙·계산만 함) | 크롬 API (크롬 API 없음 / 샘플로 바로 테스트 가능) |
+| 데이터 / Data | data/categories.json (카테고리 정보 데이터) | 상위 표현/로직 계층 및 외부 시스템 (자체 JSON 데이터로 외부 의존성 없음) |
 
 ## 2. 이슈 / Issues
 
