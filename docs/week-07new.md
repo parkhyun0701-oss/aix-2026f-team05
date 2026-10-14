@@ -8,7 +8,8 @@
 
 손그림 사진을 올리고 링크하십시오 / Upload a photo and link it.
 
-![architecture](img/week-07-arch.png)
+![architecture](<img width="3600" height="2527" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/770b00c2-df46-402c-b53f-efe62f304df3" />
+)
 
 | 계층 / Layer | 모듈·파일 / Modules | 의존하지 않는 것 / Does not depend on |
 |---|---|---|
