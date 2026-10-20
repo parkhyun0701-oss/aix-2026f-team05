@@ -27,4 +27,4 @@
 - [ ] 팀 공용 언어 합의가 작동하고 있다 / The working language agreement works
 
 ### 지금 바꿔야 할 것 한 가지 / One thing to change now
-
+본인 포함 우리팀 팀원들의 개인적인 역량을 강화시켜야 할듯함
