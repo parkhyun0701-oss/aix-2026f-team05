@@ -11,6 +11,8 @@
 > *This does not affect your grade. It is used to check how your team is working and to give feedback.*
 
 작성자 / name: _박현, 최윤성, 이제빈, 한승엽_　팀 / Team: 오류해결팀
+### 현재 개발용 레포지토리 링크(바로 링크)
+https://github.com/aix-team-5/aix_BaroLink_bookmark
 
 | 평가 대상<br>Member | 지금까지 담당한 일<br>What they have done | 참여도 (1~5)<br>Participation | 근거 (이슈 번호 등)<br>Evidence |
 |---|---|---|---|
