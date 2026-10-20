@@ -21,10 +21,10 @@
 
 ### 팀 운영 점검 / Team check
 
-- [ ] 팀 규칙(week-01)이 실제로 지켜지고 있다 / Team rules are being followed
-- [ ] 회의가 정해진 주기로 열리고 있다 / Meetings happen as agreed
+- [ㅇ] 팀 규칙(week-01)이 실제로 지켜지고 있다 / Team rules are being followed
+- [ㅇ] 회의가 정해진 주기로 열리고 있다 / Meetings happen as agreed
 - [ ] 팀원 전원이 커밋 이력을 가지고 있다 / Everyone has commits
-- [ ] 팀 공용 언어 합의가 작동하고 있다 / The working language agreement works
+- [ㅇ] 팀 공용 언어 합의가 작동하고 있다 / The working language agreement works
 
 ### 지금 바꿔야 할 것 한 가지 / One thing to change now
 본인 포함 우리팀 팀원들의 개인적인 역량을 강화시켜야 할듯함
