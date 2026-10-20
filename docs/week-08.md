@@ -10,7 +10,7 @@
 > 이 평가는 **성적에 반영되지 않습니다.** 팀 운영 상태를 점검하고 피드백을 돌려주기 위한 것입니다.
 > *This does not affect your grade. It is used to check how your team is working and to give feedback.*
 
-작성자 / Your name: ____________　팀 / Team: ____________
+작성자 / Your name: ____________　팀 / Team: 오류해결팀
 
 | 평가 대상<br>Member | 지금까지 담당한 일<br>What they have done | 참여도 (1~5)<br>Participation | 근거 (이슈 번호 등)<br>Evidence |
 |---|---|---|---|
