@@ -18,7 +18,7 @@ https://github.com/aix-team-5/aix_BaroLink_bookmark
 |---|---|---|---|
 | 박현 | 기능명세_API 명세 작성 및 역활 나누기, 전체 계획서 작성, 일정 및 다음 의논 내용 계획 구성, 깃허브 개발환경 구성 | 5 | https://github.com/aix-team-5/aix_BaroLink_bookmark , week-05.md파일 |
 | 최윤성 |  |  |  |
-| 이제빈 |  |  |  |
+| 이제빈 | 파일 구조도 제작, 아키텍쳐 제작, 설문조사 문항 제작, 북마크 분류 기준표 및 셈플데이터 & 정답지 제작 | 4 |  |
 | 한승엽 |  |  |  |
 
 ### 팀 운영 점검 / Team check
