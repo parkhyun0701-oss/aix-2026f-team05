@@ -2,8 +2,8 @@
 
 **개발 착수 / Starting development**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 2026-10-28
+- 참여자 / Present: 박현, 이제빈, 최윤성, 한승엽
 - 개발링크: https://github.com/aix-team-5/aix_BaroLink_bookmark
 
 ---
