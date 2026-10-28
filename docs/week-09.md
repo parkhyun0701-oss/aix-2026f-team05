@@ -4,6 +4,7 @@
 
 - 작성일 / Date: 
 - 참여자 / Present: 
+- 개발링크: https://github.com/aix-team-5/aix_BaroLink_bookmark
 
 ---
 
