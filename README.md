@@ -6,12 +6,12 @@
 **배포 URL / Live URL:** (13주차에 작성 / add in Week 13)
 
 ## 1. 문제 정의 / Problem Definition
-- 사용자 / Users: PC 크롬에서 북마크를 쓰지만 폴더 정리는 하지 않는 대학생. (설문: 북마크 사용자 26명 중 16명(62%)이 폴더를 만들지 않음 / Chrome users who bookmark but don't organize into folders — 62% of bookmark users surveyed make no folders)
-- 상황 / Situation: 크롬 별 버튼의 기본 저장 위치가 북마크바라, 북마크가 북마크바에 폴더 없이 쌓인다. 북마크 수는 대부분 50개 이하(84%)다. / Starred bookmarks pile up unorganized on the bookmarks bar; most users have under 50 bookmarks.
-- 페인포인트 / Pain point: 북마크가 눈에 띄지 않아 **저장한 사실 자체를 잊고**, 저장한 **이름이 기억나지 않는다**. (설문 자유응답에서 반복) 찾는 데 걸리는 시간은 대부분 1분 이내라 "검색 속도"는 문제가 아니었다. / Bookmarks are out of sight, so users forget they saved them and forget the titles. Search speed was not the problem (most found items within a minute).
+- 사용자 / Users: PC 크롬에서 북마크를 쓰지만 폴더 정리는 하지 않는 대학생. (설문: 북마크 사용자 26명 중 16명(62%)이 폴더를 만들지 않음 )
+- 상황 / Situation: 크롬 별 버튼의 기본 저장 위치가 북마크바라, 북마크가 북마크바에 폴더 없이 쌓인다. 북마크 수는 대부분 50개 이하(84%)다. 
+- 페인포인트 / Pain point: 북마크가 눈에 띄지 않아 **저장한 사실 자체를 잊고**, 저장한 **이름이 기억나지 않는다**. (설문 자유응답에서 반복) 찾는 데 걸리는 시간은 대부분 1분 이내라 "검색 속도"는 문제가 아니었다.
 - 성공 기준 / Success criteria:
-  - 잊은 북마크 발견: 테스트 참가자가 "잊고 있던 북마크" 폴더를 스스로 열어 보고, 잊고 있던 북마크를 알아본다. / Users open the "forgotten bookmarks" folder on their own and recognize items they had forgotten.
-  - 분류 품질: 적용률·정확도·수정률이 첫 측정 후 팀이 정한 목표치를 넘는다. (현재 샘플 100개 중 89개 분류, 분류된 89개 전부 정답) / Classification coverage/accuracy/edit-rate exceed the team's target (currently 89/100 classified, all 89 correct).
+  - 잊은 북마크 발견: 테스트 참가자가 "잊고 있던 북마크" 폴더를 스스로 열어 보고, 잊고 있던 북마크를 알아본다. 
+  - 분류 품질: 적용률·정확도·수정률이 첫 측정 후 팀이 정한 목표치를 넘는다. (현재 샘플 100개 중 89개 분류, 분류된 89개 전부 정답) 
   - 안전성: [정리하기] 전에는 크롬 북마크가 하나도 바뀌지 않고, 사용자 폴더와 요즘 쓰는 북마크는 그대로 남으며, [되돌리기]로 원래 폴더·순서로 돌아간다.
 
 ## 2. 사용자 확인 / User Validation
@@ -37,12 +37,12 @@ git clone <repo-url>
 
 ## 5. 기술 스택과 선택 이유 / Tech Stack and Rationale
 | Chrome Extension Manifest V3 (크롬 134+) | 크롬 북마크를 가져오기 없이 직접 읽고 새 탭을 대체해야 한다. 북마크바가 두 개로 보이는 크롬 134 동작까지 다루려고 최소 버전을 134로 둔다. / Needed to read Chrome bookmarks directly and replace the new tab page. |
-| HTML·CSS·JavaScript (ES 모듈), 빌드 도구 없음 / no build tools | 네 명이 파일을 나눠 맡고 `extension/` 폴더째 바로 올려 확인한다. 빌드·번들러·TypeScript·프레임워크를 넣지 않아 설치 장벽과 충돌을 줄인다. / Four people split files and load the folder as-is; no bundler keeps setup trivial. |
-| 백그라운드 서비스 워커 / service worker | 새 탭이 닫혀 있어도 사용자의 "직접 옮김"과 새 북마크를 감지해야 한다. / Detect manual moves and new bookmarks even when no tab is open. |
-| 데이터: 크롬 북마크 + `chrome.storage.local` (서버·DB 없음) | 기기 간 동기화는 크롬 로그인 동기화가 맡는다. 자체 서버·DB는 범위를 키우고 개인정보 위험을 만든다. / Chrome sync handles cross-device; a custom backend would add scope and privacy risk. |
-| 규칙 기반 분류 (AI 없음) / rule-based, no AI | 북마크에 민감 정보가 있어 외부 전송을 피한다. 규칙은 결과가 항상 같고 근거를 설명할 수 있으며 정확도를 반복 측정해 고칠 수 있다. / Avoids sending sensitive data out; deterministic and explainable. |
-| SortableJS (파일 포함, P3) | 드래그 정렬에만 쓴다. CDN을 못 쓰므로(MV3 CSP) 폴더에 파일로 넣는다. / Local file only, used for P3 drag reorder. |
-| GitHub Actions + CodeRabbit | PR마다 문법·빠진 함수·JSON 형태를 자동 검사하고 코드 리뷰를 받는다. / Automated checks and review on every PR. |
+| HTML·CSS·JavaScript (ES 모듈), 빌드 도구 없음 / no build tools | 네 명이 파일을 나눠 맡고 `extension/` 폴더째 바로 올려 확인한다. 빌드·번들러·TypeScript·프레임워크를 넣지 않아 설치 장벽과 충돌을 줄인다.|
+| 백그라운드 서비스 워커 / service worker | 새 탭이 닫혀 있어도 사용자의 "직접 옮김"과 새 북마크를 감지해야 한다. |
+| 데이터: 크롬 북마크 + `chrome.storage.local` (서버·DB 없음) | 기기 간 동기화는 크롬 로그인 동기화가 맡는다. 자체 서버·DB는 범위를 키우고 개인정보 위험을 만든다. |
+| 규칙 기반 분류 (AI 없음) / rule-based, no AI | 북마크에 민감 정보가 있어 외부 전송을 피한다. 규칙은 결과가 항상 같고 근거를 설명할 수 있으며 정확도를 반복 측정해 고칠 수 있다.|
+| SortableJS (파일 포함, P3) | 드래그 정렬에만 쓴다. CDN을 못 쓰므로(MV3 CSP) 폴더에 파일로 넣는다. |
+| GitHub Actions + CodeRabbit | PR마다 문법·빠진 함수·JSON 형태를 자동 검사하고 코드 리뷰를 받는다. |
 ## 6. 팀 구성 / Team
 | 이름(GitHub 아이디) Name (handle) | 담당 영역 Area | 주요 이슈 Issues |
 |---|---|---|
