@@ -51,8 +51,6 @@
 ---
 
 
----
-
 ## ③ 이번 주 목표 이슈 / This week's issues (9주차)
 
 | # | 제목 Title | 담당 Owner | 완료 Done |
