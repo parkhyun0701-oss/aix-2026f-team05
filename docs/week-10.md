@@ -2,8 +2,8 @@
 
 **막힘 진단 / Diagnosing blockers**
 
-- 작성일 / Date: 
-- 참여자 / Present: 
+- 작성일 / Date: 2026-11-07
+- 참여자 / Present: 박현, 이제빈, 최윤성, 한승엽
 - 결과보고서 / Report chapter: 5장 구현 과정
 - 최종 반영 / Feeds into: Won't 목록 갱신 / updated Won't list
 
